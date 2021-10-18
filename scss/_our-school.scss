@@ -1,0 +1,51 @@
+.our-school{
+    margin-top: 180px;
+}
+
+.our-school-item{
+    display: flex;
+    margin-left: -20px;
+}
+
+.our-school-item:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.our-school-item:not(:first-child){
+    margin-top: 20px;
+}
+
+.box{
+    width: calc((100% / 2) - 20px);
+    margin-left: 20px;
+}
+.content-box{
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+}
+
+.our-school .title{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.our-school .text{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.our-school .button{
+    padding: 15px 30px;
+    margin-top: 60px;
+    border: none;
+    color: #fff;
+    background: rgb(255,137,1);
+    background: linear-gradient(90deg, rgba(255,137,1,1) 0%, rgba(255,49,79,1) 100%);
+    transition: outline 300ms;
+}
+
+.our-school .button:hover,
+.our-school .button:focus{
+    outline: 2px solid rgb(255, 143, 38);
+    transition: outline 300ms;
+}

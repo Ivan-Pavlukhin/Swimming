@@ -1,0 +1,80 @@
+.contacts{
+    display: flex;
+    margin-top: 80px;
+    margin-left: -20px;
+}
+
+.contacts .box{
+    margin-left: 20px;
+    padding: 0 20px;
+}
+
+.contacts .box:first-child{
+    width: calc(100% - 400px);
+}
+
+.map{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.links.box{
+    display: flex;
+    flex-direction: column;
+    background: rgb(0,154,225);
+    background: linear-gradient(0deg, rgba(0,154,225,1) 0%, rgba(0,123,197,1) 100%);
+    color: #fff;
+}
+
+.contact-link{
+    color: #fff;
+}
+
+.contact-link:not(:first-child){
+    margin-top: 20px;
+}
+
+.contact-link:hover,
+.contact-link:focus{
+    text-decoration: underline;
+}
+
+.contacts .title{
+    font-weight: normal;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.social-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: background-color 300ms;
+}
+
+.social .svg{
+    height: 30px;
+    fill: rgb(0,154,225);
+    transition: fill 300ms;
+}
+
+.social-link:hover,
+.social-link:focus{
+    background-color: rgb(0,154,225);
+    transition: background-color 300ms;
+}
+
+.social-link:hover .svg,
+.social-link:focus .svg{
+    fill: #fff;
+    transition: fill 300ms;
+}

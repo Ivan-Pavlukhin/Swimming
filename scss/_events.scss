@@ -1,0 +1,21 @@
+.events{
+    display: flex;
+    margin-top: 60px;
+    margin-left: -20px;
+}
+
+.event-box{
+    padding: 60px;
+    background: rgb(255,175,0);
+    background: linear-gradient(180deg, rgba(255,175,0,1) 0%, rgba(255,134,21,1) 100%);
+    color: #fff;
+}
+
+.events-item{
+    margin-top: 20px;
+}
+
+.events .title{
+    font-size: 30px;
+    font-weight: normal;
+}
