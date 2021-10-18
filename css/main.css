@@ -280,6 +280,7 @@ ul {
 
 .rate {
   height: 450px;
+  margin-top: 80px;
   background-image: url(../img/jpg/rate.jpg);
   background-repeat: no-repeat;
   background-size: cover;
